@@ -1,0 +1,31 @@
+header {
+  background-color: #1877f2;
+  color: white;
+  padding: 3rem;
+  margin-bottom: 3rem;
+}
+
+a {
+  color: white;
+  font-size: 30px;
+  margin-right: 2rem;
+  text-decoration: none;
+}
+
+.MainDiv {
+  padding: 4rem 3rem 1rem;
+  background-image: url("https://images.unsplash.com/photo-1682687220566-5599dbbebf11?q=80&w=3475&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+p {
+  font-size: 25px;
+  padding: 0 1rem;
+}
+
+main {
+  border: 1px solid rgb(140, 136, 136);
+  margin: 0 3rem;
+  border-radius: 10px;
+}
