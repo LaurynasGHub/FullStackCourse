@@ -8,9 +8,8 @@
 }
 
 .Kortele {
-  margin-top: 10rem;
-  margin-inline-start: 11rem;
-  margin-inline-end: 11rem;
+  margin-top: 90px;
+  margin-left: 136px;
   width: 20rem;
   height: 22rem;
   background-color: white;
@@ -50,4 +49,16 @@ body {
 
 .Day {
   font-weight: bold;
+}
+
+.Knopkes {
+  padding-top: 30px;
+  padding-left: 16px;
+}
+
+.Button {
+  border-radius: 50%;
+  position: absolute;
+  background: none;
+  display: inline;
 }
