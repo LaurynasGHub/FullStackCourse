@@ -1,0 +1,82 @@
+body {
+  background-color: #131417;
+}
+
+.main {
+  width: 531px;
+  height: 224px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 65px 72px 66px;
+  position: absolute;
+  top: 106px;
+  left: 66px;
+  border-radius: 12px;
+  background: rgba(34, 34, 37, 0.7);
+}
+
+.title {
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  letter-spacing: 0.42px;
+}
+
+.paragraph {
+  position: relative;
+  top: 17px;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.btn {
+  position: relative;
+  top: 34px;
+  border-radius: 12px;
+  height: 26px;
+  width: 112;
+  border: 2px solid #f17965;
+  background: rgba(34, 34, 37, 0.7);
+  color: #f17965;
+  font-size: 15px;
+}
+
+img {
+  position: relative;
+  z-index: 10;
+  width: 220px;
+  /* height: 195px; */
+  transform: rotate(1.788deg);
+  top: 10px;
+  left: 6px;
+}
+
+.star {
+  position: absolute;
+  top: 314px;
+  left: 608px;
+  height: 167px;
+  width: 160px;
+  z-index: 3;
+}
+
+.elipse1 {
+  position: absolute;
+  top: 364px;
+  left: 698px;
+  z-index: 2;
+}
+
+.elipse2 {
+  position: absolute;
+  top: 392px;
+  left: 634px;
+  z-index: 1;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #f79090;
+}
