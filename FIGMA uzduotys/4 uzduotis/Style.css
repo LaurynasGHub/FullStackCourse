@@ -1,0 +1,58 @@
+.bendri {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+div h1 {
+  font-size: 128px;
+  padding: calc((100vh - 128px) / 2) 0;
+}
+
+.dvejetas {
+  background-color: #51cb65;
+  border: 1px solid #51cb65;
+}
+
+.trejetas {
+  background-color: #816ef5;
+  border: 1px solid #816ef5;
+}
+
+.ketvertas {
+  background-color: #ea7b7b;
+  border: 1px solid #ea7b7b;
+}
+
+.penketas {
+  color: #e41111;
+  background-color: #d9d9d9;
+  border: 1px solid #d9d9d9;
+}
+
+div a {
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  border: 2px solid #f17965;
+  color: #f17965;
+  text-align: center;
+  background-color: white;
+}
+
+.mygtukai {
+  position: fixed;
+  bottom: 5rem;
+  left: 35rem;
+}
+
+div a:hover {
+  background-color: black;
+}
+
+button {
+  border-radius: 100%;
+  position: fixed;
+  bottom: 4rem;
+  right: 2rem;
+  /* position: fixed; */
+  /* left: 100px; */
+}
