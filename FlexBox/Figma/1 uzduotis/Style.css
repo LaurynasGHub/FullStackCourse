@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+.geltona {
+  background-color: yellow;
+  height: 300px;
+  padding: 1rem;
+}
+
+.geltonaPar {
+  height: 265px;
+}
+
+.zalia {
+  background-color: rgb(136, 199, 136);
+  height: 300px;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.zaliaPar {
+  height: 265px;
+}
+
+.oranzine {
+  background-color: rgb(238, 161, 17);
+  height: 300px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.oranzinePar {
+  height: 150px;
+}
+
+.zydra {
+  background-color: aqua;
+  height: 300px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zydraPar {
+  height: 120px;
+}
+
+.raudona {
+  background-color: red;
+  height: 300px;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+div div {
+  background-color: white;
+  padding: 1rem;
+  width: 320px;
+}
