@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Navigation */
+
+.nav {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  box-sizing: border-box;
+  font-family: lato;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 700px) {
+  div.links {
+    display: none;
+  }
+}
+
+.hiddenLinksRep {
+  position: absolute;
+  right: 5px;
+  top: 20px;
+}
+
+@media screen and (min-width: 700px) {
+  div.hiddenLinksRep {
+    display: none;
+  }
+}
+
+.ABC {
+  color: #ee5555;
+}
+
+.festivalABC {
+  display: flex;
+  font-size: 22px;
+}
+
+.links {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  font-family: open sans;
+  text-transform: uppercase;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #222;
+}
+
+/* Main (landing) page */
+
+.landingPage {
+  background-image: url(./photos/FestivalBackground.jpeg);
+  background-size: cover;
+  width: 100vw;
+  height: 836px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingContainer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landingContainer h1 {
+  font-family: lato;
+  font-size: 45px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.landingContainer h2 {
+  font-family: lato;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.landingButtons {
+  padding: 42px;
+}
+
+.buyTicket {
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 8px;
+  background-color: #ee5555;
+  border: #ee5555;
+  margin: 10px;
+}
+
+.viewArtists {
+  color: #ee5555;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 8px;
+  background-color: white;
+  border: 2px #ee5555;
+}
+
+/* landing page footer with info */
+.landingFooter {
+  background: #eb5757;
+  color: white;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 20px;
+}
+
+/* artists page */
+.artists {
+}
+
+.artistsDesc {
+  padding: 2rem;
+}
+
+.artistsDesc h1 {
+  color: #222;
+  text-align: center;
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.artistsDesc p {
+  color: rgba(34, 34, 34, 0.5);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 2rem;
+}
+
+.artistsPhotos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tomke {
+  height: 306px;
+  width: 306px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+}
+
+.tomke img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.tomke h1 {
+  color: #222;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+.paragraph {
+  color: rgba(34, 34, 34, 0.5);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 1rem;
+}
