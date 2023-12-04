@@ -13,7 +13,7 @@
   font-family: lato;
   flex-wrap: wrap;
 }
-
+/*kai screeno dydis maziau uz 700px dingsta linkai*/
 @media screen and (max-width: 700px) {
   div.links {
     display: none;
@@ -25,7 +25,7 @@
   right: 5px;
   top: 20px;
 }
-
+/*kai screeno dydis maziau uz 700px atsiranda 3 bruksniukai vietoje nav linku*/
 @media screen and (min-width: 700px) {
   div.hiddenLinksRep {
     display: none;
@@ -129,10 +129,21 @@
 
 /* artists page */
 .artists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .artistsDesc {
   padding: 2rem;
+}
+
+.bruksnys {
+  width: 31px;
+  height: 5px;
+  margin: 0 auto;
+  background-color: #eb5757;
+  margin: 19px auto;
 }
 
 .artistsDesc h1 {
@@ -157,28 +168,20 @@
 }
 
 .artistsPhotos {
+  width: 80%; /*cia idejau procentus nes prastai rode nuotraukas, buvo 3 3 ir 1 kai reikejo 4 ir 3 eiluteje*/
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.tomke {
-  height: 306px;
-  width: 306px;
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
-  align-items: center;
-}
-
-.tomke img {
+.artistsPhotos img {
   height: 100px;
   width: 100px;
   border-radius: 100px;
   object-fit: cover;
 }
 
-.tomke h1 {
+.artistsPhotos h1 {
   color: #222;
   text-align: center;
   font-family: Lato;
@@ -197,4 +200,67 @@
   font-style: normal;
   font-weight: 400;
   padding: 1rem;
+}
+
+.tomke {
+  height: 306px;
+  width: 306px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+
+.upce {
+  height: 306px;
+  width: 306px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+
+.hendrei {
+  height: 306px;
+  width: 306px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+
+.pugr {
+  height: 306px;
+  width: 306px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+
+.lajs {
+  height: 306px;
+  width: 306px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+
+.polvek {
+  height: 306px;
+  width: 306px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+
+.lawew {
+  height: 306px;
+  width: 306px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
 }
