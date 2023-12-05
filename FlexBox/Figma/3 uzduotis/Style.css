@@ -268,11 +268,12 @@
 /* gallery page */
 .gallery {
   background-color: #c4c4c4;
-  width: 100vw;
-  height: 100vh;
-  /* display: flex;
+  /* width: 100vw; */
+  /* height: 100vh; */
+  display: flex;
   flex-wrap: wrap;
-  justify-content: center; */
+  justify-content: center;
+  padding-bottom: 40px;
 }
 
 .galleryDesc {
@@ -291,6 +292,7 @@
   line-height: normal;
   letter-spacing: 2px;
   text-transform: uppercase;
+  padding-top: 50px;
 }
 
 .gallery p {
@@ -305,4 +307,32 @@
 }
 
 .nuotraukos {
+  width: 75%;
+}
+
+.nuotraukos img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin: 20px;
+}
+
+/* tickets */
+
+.tickets {
+}
+
+.ticketsDesc {
+}
+
+.ticketTypes {
+}
+
+.ticketContainer {
+}
+
+.ticketPrice {
+}
+
+.ticketButton {
 }
