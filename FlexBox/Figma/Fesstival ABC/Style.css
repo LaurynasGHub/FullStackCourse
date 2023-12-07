@@ -324,6 +324,7 @@
   justify-content: center;
   flex-direction: column;
   padding-top: 30px;
+  padding-bottom: 100px;
   /* background-color: rgb(209, 203, 203); */
 }
 
@@ -402,7 +403,7 @@
 .ticketprice {
   display: flex;
   justify-content: space-between;
-  width: 140px;
+  /* width: 140px; */
   margin: 0 auto;
 }
 
@@ -437,4 +438,44 @@
   background-color: #eb5757;
   border: none;
   margin: 0 auto;
+}
+
+/*location*/
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.locationDesc h1 {
+  color: #222;
+  text-align: center;
+  font-family: Lato;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.locationDesc p {
+  /*levai padariau, galejau visiem p duot tapacia klase maziau rasimo tada*/
+  color: rgba(34, 34, 34, 0.5);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 30px;
+}
+
+.map {
+  margin: 0 auto;
+}
+
+/*contact Us*/
+.contactUs {
 }
