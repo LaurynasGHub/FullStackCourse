@@ -320,19 +320,162 @@
 /* tickets */
 
 .tickets {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  /* background-color: rgb(209, 203, 203); */
+}
+
+.tickets h1 {
+  color: #222;
+  text-align: center;
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .ticketsDesc {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ticketsDescPar {
+  color: rgba(34, 34, 34, 0.5);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 auto; /*jeigu sito nera tada necentruoja divo pagr dive*/
+  width: 800px;
+  padding-bottom: 20px;
 }
 
 .ticketTypes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .ticketContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0px 4px 11px 0px rgba(192, 192, 192, 0.1);
+  width: 424px;
+  height: 300px;
+  background-color: white;
 }
 
-.ticketPrice {
+.ticketContainer * {
+  margin: 20px;
 }
 
-.ticketButton {
+.ticketContainer h2 {
+  color: #222;
+  text-align: center;
+  font-family: Lato;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.ticketContainer p {
+  color: rgba(34, 34, 34, 0.5);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.ticketprice {
+  display: flex;
+  justify-content: space-between;
+  /* width: 140px; */
+  margin: 0 auto;
+}
+
+.ticketprice h3 {
+  color: #222;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  /* margin: 0 auto; */
+}
+
+.ticketprice h4 {
+  color: #eb5757;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  /* margin: 0 auto; */
+}
+
+.ticketButon {
+  width: 204.886px;
+  height: 41.899px;
+  flex-shrink: 0;
+  background-color: #eb5757;
+  border: none;
+  margin: 0 auto;
+}
+
+/*location*/
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.locationDesc h1 {
+  color: #222;
+  text-align: center;
+  font-family: Lato;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.locationDesc p {
+  /*levai padariau, galejau visiem p duot tapacia klase maziau rasimo tada*/
+  color: rgba(34, 34, 34, 0.5);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 30px;
+}
+
+.map {
+  margin: 0 auto;
+}
+
+/*contact Us*/
+.contactUs {
 }
