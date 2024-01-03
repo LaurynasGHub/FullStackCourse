@@ -13,21 +13,28 @@
 // console.log('|  Juste |   25   |');
 // console.log('+--------+--------+');
 
-let keliamasSkaicius = 5; //skaicius kuri keliam laipsniu
-let kelimoLaipsnis = 5; //laipsnis kuriuo kelsime skaiciu
+// let keliamasSkaicius = 5; //skaicius kuri keliam laipsniu
+// let kelimoLaipsnis = 5; //laipsnis kuriuo kelsime skaiciu
 
-let pakeltasSkaicius = kelimasLaipsniu(keliamasSkaicius, kelimoLaipsnis);
+// let pakeltasSkaicius = kelimasLaipsniu(keliamasSkaicius, kelimoLaipsnis);
 
-console.log('pakeltas skaicius- ' + pakeltasSkaicius);
+function kelimasLaipsniu() {
+  let keliamasSkaicius = document.getElementById('keliamasSkaicius').value; //skaicius kuri keliam laipsniu
+  let kelimoLaipsnis = document.getElementById('keliamasLaipsnis').value; //laipsnis kuriuo kelsime skaiciu
 
-function kelimasLaipsniu(skaicius, laipsnis) {
+  // console.log('keliamasSkaicius= ' + keliamasSkaicius);
+  // console.log('keliamasSkaicius= ' + keliamasSkaicius);
+
   let rezultatas = 1;
 
-  for (let i = 0; i < laipsnis; i++) {
+  for (let i = 0; i < kelimoLaipsnis; i++) {
     // console.log('i= ' + i);
-    rezultatas = rezultatas * skaicius;
+    rezultatas = rezultatas * keliamasSkaicius;
     // console.log('rezultatas- ' + rezultatas);
   }
+  console.log('pakeltas skaicius= ' + rezultatas);
+
+  document.getElementById('gautasRezultatas').value = rezultatas;
 
   return rezultatas;
 }

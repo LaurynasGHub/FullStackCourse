@@ -4,12 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--defer cia duoda kad nekrautu ijungiant psl o krautu tik tada kai eina scriptas-->
-    <script src="./script.js" defer></script>
+    <!-- <script src="./script.js" defer></script> -->
     <title>JS tutorial</title>
   </head>
   <body>
     <style>
       .input {
+        margin: 2rem;
+      }
+      button {
         margin: 2rem;
       }
     </style>
@@ -28,6 +31,8 @@
       id="keliamasLaipsnis"
       placeholder="ivesti 2 skaiciu"
     />
+    <br />
+    <button onclick="kelimasLaipsniu();">skaiciuoti</button>
     <br />
     <input
       type="text"
