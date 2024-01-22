@@ -47,17 +47,37 @@
 //   }
 // }
 
-//fibonachi uzduotis
-let pirmasSk = 1;
-let antrasSk = 2;
-let suma = pirmasSk + antrasSk;
+// //fibonachi uzduotis
+// let pirmasSk = 1;
+// let antrasSk = 2;
+// let suma = pirmasSk + antrasSk;
 
-let cikluSk = 35;
+// let cikluSk = 35;
 
-for (let i = 2; i <= cikluSk - 3; i++) {
-  pirmasSk = antrasSk;
-  antrasSk = suma;
-  suma = pirmasSk + antrasSk;
-}
+// for (let i = 2; i <= cikluSk - 3; i++) {
+//   pirmasSk = antrasSk;
+//   antrasSk = suma;
+//   suma = pirmasSk + antrasSk;
+// }
 
-console.log('suma= ' + suma);
+// console.log('suma= ' + suma);
+
+// //while ciklai
+// let skaicius = 0;
+
+// while (skaicius <= 19) {
+//   skaicius = skaicius + 1;
+// }
+// console.log(skaicius);
+
+// let skaicius = 1;
+// let suma = 0;
+
+// while (skaicius < 101) {
+//   if (skaicius % 2 === 0) {
+//     // console.log('skaicius= ' + skaicius);
+//     suma = suma + skaicius;
+//   }
+//   skaicius++;
+// }
+// console.log(suma);
