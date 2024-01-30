@@ -2,8 +2,58 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
   font-size: 100%;
-  padding: 5% 10%;
-  margin: 5% 10%;
+  padding: 1% 10%;
+  margin: 2% 10%;
   border-radius: 0.5rem;
   background-color: bisque;
+}
+
+.calculatorItems {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.calculatorItems .inputDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 0.5rem;
+  width: 80%;
+  flex-wrap: wrap;
+  background-color: rgb(199, 255, 236);
+  padding-bottom: 4%;
+}
+.calculatorItems .inputDiv .numberInput {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.calculatorItems .mathOperations {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 76%;
+  margin-top: 2%;
+  padding: 2% 2%;
+  background-color: rgb(119, 180, 182);
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+.calculatorItems .mathOperations button {
+  margin: 1%;
+  background: none;
+  border: 1px solid rgb(16, 70, 72);
+  border-radius: 0.4rem;
+  font-size: 130%;
+}
+.calculatorItems .result {
+  background-color: rgb(119, 180, 182);
+  padding: 2% 33.94%;
+  display: flex;
+}
+.calculatorItems .result input {
+  width: 140%;
+  height: 10%;
 }/*# sourceMappingURL=styles.css.map */

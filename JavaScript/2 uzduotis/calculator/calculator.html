@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./calculator.js" defer></script>
     <link rel="stylesheet" href="./styles.css" />
     <title>Calculator</title>
   </head>
@@ -12,21 +13,34 @@
     </div>
     <div class="calculatorItems">
       <div class="inputDiv">
-        <div class="number1">
+        <div class="numberInput">
           <h2>Insert number 1</h2>
-          <input type="number" />
+          <input type="number" id="number1" />
         </div>
-        <div class="number2">
+        <div class="numberInput">
           <h2>Insert number 2</h2>
-          <input type="number" />
+          <input type="number" id="number2" />
         </div>
       </div>
       <div class="mathOperations">
-        <div class="addition"></div>
-        <div class="substraction"></div>
-        <div class="multiplication"></div>
-        <div class="division"></div>
-        <div class="laipsnis"></div>
+        <div class="addition">
+          <button onclick="addition()">Addition</button>
+        </div>
+        <div class="substraction">
+          <button>Substraction</button>
+        </div>
+        <div class="multiplication">
+          <button>Multiplication</button>
+        </div>
+        <div class="division">
+          <button>Division</button>
+        </div>
+        <div class="laipsnis">
+          <button>Times</button>
+        </div>
+      </div>
+      <div class="result">
+        <input type="text" value="result" id="result" />
       </div>
     </div>
   </body>
