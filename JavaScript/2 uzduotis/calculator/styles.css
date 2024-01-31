@@ -39,7 +39,7 @@
   margin-top: 2%;
   padding: 2% 2%;
   background-color: rgb(119, 180, 182);
-  border-radius: 0.4rem 0.4rem 0 0;
+  border-radius: 0.4rem;
 }
 .calculatorItems .mathOperations button {
   margin: 1%;
@@ -49,9 +49,15 @@
   font-size: 130%;
 }
 .calculatorItems .result {
-  background-color: rgb(119, 180, 182);
-  padding: 2% 2%;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 76%;
+  margin-top: 2%;
+  padding: 2% 2%;
+  background-color: rgb(119, 180, 182);
+  border-radius: 0.4rem;
 }
 .calculatorItems .result input {
   width: 140%;
