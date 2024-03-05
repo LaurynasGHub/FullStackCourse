@@ -20,5 +20,8 @@
     "noImplicitOverride": true, // reikalavimas įvardinti  aktažodžiu 'override' jeigu perrašome funkcijas
     "removeComments": true, // ar pašalinti komentarus sukompiliuotuose failuose
     "skipLibCheck": true // ar praleisti tipų tikrinimą naudojant bibliotekas
+
+    // "noEmit": true,
+    // "allowImportingTsExtensions": true //leidzia importuoti failus su .ts extension
   }
 }
